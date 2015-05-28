@@ -1,0 +1,23 @@
+{
+  "name": "express-versioned-route-test",
+  "version": "0.0.1",
+  "description": "express-versioned-route-test",
+  "author": "Maggie, Inc. <maggie@55yali.com>",
+  "dependencies": {
+    "body-parser": "~1.9.3",
+    "cors": "~2.5.2",
+    "express": "~4.10.2",
+    "morgan": "~1.5.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-nodemon": "~1.0.4"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "scripts": {
+  }
+}
