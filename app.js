@@ -102,11 +102,11 @@ walk(path.join(rootPath, 'routes'), function (version, file, path) {
 
 app.use('/',routers['v1_1']);
 versions.forEach(function(version) {
-  app.use(version, routers[version]);
+  app.use('/'+version, routers[version]);
   // console.log(routers[version]);
 });
 
-
+console.log()
 
 app.listen(3003);
 console.log('server is listening 3003.');
